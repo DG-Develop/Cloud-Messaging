@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Notificattion</string>
+    <!--Messaging-->
+    <string name="default_notification_channel_id" translatable="true">fcm_default_channel</string>
+    <string name="you_have_a_descount">Hey!! You hava a descount in Platzi from:</string>
+    <string name="subscribe_android">Subscribe Android</string>
+    <string name="subscribe_firebase">Subscribe Firebase</string>
+</resources>

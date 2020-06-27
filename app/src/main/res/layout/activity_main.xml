@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Platzi" />
+
+    <TextView
+        android:id="@+id/tvDescountMessage"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_have_a_descount"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/btnSubscribeAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subscribe_android"
+        android:onClick="subscribeAndroid"/>
+
+    <Button
+        android:id="@+id/btnSubscribeFirebase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subscribe_firebase"
+        android:onClick="subscribeFirebase"/>
+
+</LinearLayout>
